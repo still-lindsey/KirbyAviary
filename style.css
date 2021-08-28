@@ -1,0 +1,48 @@
+/* This is a 'stylesheet'. It defines how the elements appear when they are rendered by the browser. */
+
+html {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  font-family: monospace;
+  height: 100%;
+  justify-content: center;
+  background-color: rgb(234, 108, 129);
+}
+
+button {
+  border-radius: 8px;
+  border-color: black;
+  display: block;
+  font-size: 20pt;
+  height: 50px;
+  width: 250px;
+  margin: 7px;
+  background-color: white;
+  color:black;
+}
+
+#new-kirby-button{
+  display: none;
+}
+
+#shrink-kirby-button{
+  display: none;
+}
+
+#kirby-button{
+  display: none;
+}
+
+
+
+img{
+  height: 100px;
+  position: absolute;
+  z-index: -1;
+  bottom: 0%;
+  left: 50%;
+}

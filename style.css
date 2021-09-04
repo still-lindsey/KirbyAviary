@@ -14,15 +14,17 @@ body {
 }
 
 button {
-  border-radius: 8px;
+  border-radius: 0px;
   border-color: black;
   display: block;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20pt;
   height: 50px;
   width: 250px;
   margin: 7px;
-  background-color: white;
+  background-color: rgb(225,225,225,.01);
   color:black;
+  cursor: pointer;
 }
 
 #new-kirby-button{

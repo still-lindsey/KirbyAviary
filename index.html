@@ -9,26 +9,28 @@
     />
 
     <!-- This is the line that loads the stylesheet. -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
     <!-- This is the line that adds the button and invokes the function that you should write. -->
-    <div id="buttons">
+    <section id="buttons">
       <button id="color-button">Change Colors</button>
 
-      <button id="new-kirby-button"> Multiply Kirby</button>
+      <button id="new-kirby-button"> Multiply Kirby <span id = "counter">Kirby Kount: 1 </span></button>
 
       <button id="shrink-kirby-button">Shrink Kirby</button>
 
-      <button id="kirby-button">Fly Kirby</button>
+      <button id="fly-kirby-button">Fly Kirby</button>
 
-    </div>
-    <img src="https://i.ibb.co/NWrRhhK/kirby-flying-adobespark.png" alt="flying kirby">
+    </section>
+    <section id = "kirby-container"> 
+      <img src="https://i.ibb.co/NWrRhhK/kirby-flying-adobespark.png" alt="flying kirby">
+    </section>
   </body>
 
   <!-- This is the line that loads the JavaScript file. -->
-  <script type="text/javascript" src="lodash.js"></script>
-  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="src/lodash.js"></script>
+  <script type="text/javascript" src="src/script.js"></script>
   
 </html>

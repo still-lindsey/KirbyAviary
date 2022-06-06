@@ -27,19 +27,10 @@ button {
   cursor: pointer;
 }
 
-#new-kirby-button{
-  display: none;
+span {
+  display:block;
+  font-size: .4em;
 }
-
-#shrink-kirby-button{
-  display: none;
-}
-
-#kirby-button{
-  display: none;
-}
-
-
 
 img{
   height: 100px;
